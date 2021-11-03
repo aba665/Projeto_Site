@@ -2,9 +2,10 @@ body{
 	/* width: 780px; */
 	margin: auto;
 	font-family: sans-serif, helvetica;
-	background-image: url(images/quino-al-LQAFsv2eKEA-unsplash\ \(1\).jpg);
+	/* background-image: url(images/quino-al-LQAFsv2eKEA-unsplash\ \(1\).jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
+	background-color: #0e1b27;
 	color: white;
 	box-sizing: border-box;
 	text-decoration: none;
@@ -61,53 +62,65 @@ header .menu .ativo, header .menu a:hover{
 header .menu li{
 	display: inline;
 }
-.po{
-	text-shadow: 2px 2px 0.5px black;
-    color: white;
-    position: static;
+#txt{
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 40%;
+	height: 70%;
 }
-.widthFormulario{
-    position: relative;
-    /* display: flex; */
-    /* flex-basis: row wrap; */
-    /* justify-content: center;
-    align-items: center; */
-    /* max-width: 100%;
-     height: 500px;
-    /* height: 800px; */
-    /* align-self: center; */
+#quadro{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 70%;
+	text-align: center;
+	background-color: #1d364e;
 
 }
+#quadrado{
+	width: 80%;
+}
 .formulario{
-	text-shadow: 2px 2px 0.5px black;
-    color: white;
-    position: absolute;
-    top:  6vw;
-    align-self: center;
-    width: 100%;
-    height: 210px;
-    text-align: center;  
-    padding-top: 28px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 800px;
+	align-items: center;
+	align-content: center;
+	
     
 }
+label{
+	font-size: 18px;
+	display: flex;
+	float: left;
+}
 input, label{
-    width: 25%;
+	border: none;
+    width: 85%;
     /* box-sizing: border-box; */
     padding: 5px;
     margin-bottom: 9px;
     box-sizing: inherit;
 }
 input{
-    background-color: thistle;
-    box-shadow: 2px 5px 4px  rgb(74, 25, 97);
-    border-radius: 5px;
+    background-color: #ffffffbb;
+    /* box-shadow: 1px 2px 2px  rgb(0, 0, 0); */
+    border-radius: 8px;
     text-align: center;
     transition: 0.25s;
 }
 input[type = "text"]:focus{
-	width: 430px;
+	width: 100%;
 	border-color: #42d4cd;
-    border: 5px solid #42d4cd;
+    border: 4px solid #42d4cd;
 	}
 input[type = submit]{
     width: 70px;
@@ -122,6 +135,8 @@ input[type = "submit"]:hover{
 	background: #2ecc71;
 }
 .txtarea{
-    width: 30%;
-    height: 150px;
-}    
+	width: 100%;
+	height: 180px;
+	border-radius: 10px;
+	background: #ffffffbb;
+}

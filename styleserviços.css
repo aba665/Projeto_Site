@@ -4,9 +4,10 @@ body{
 	margin: auto;
 	font-family: sans-serif, helvetica;
 	/* background: rgb(234, 227, 240); */
-	background-image: url(images/quino-al-LQAFsv2eKEA-unsplash\ \(1\).jpg);
+	/* background-image: url(images/quino-al-LQAFsv2eKEA-unsplash\ \(1\).jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
+	background-color: #0e1b27;
 	color: white;
 	box-sizing: border-box;
 	text-decoration: none;

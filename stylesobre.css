@@ -4,9 +4,10 @@ body{
     margin: auto;
     height: 100vw;
 	font-family: sans-serif, helvetica;
-    background-image: url(images/Amanhecer.jpg);
+    /* background-image: url(images/Amanhecer.jpg);
     background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
+	background-color: #0e1b27;
 	/* background: rgb(234, 227, 240);
 	background-image: url(images/quino-al-LQAFsv2eKEA-unsplash\ \(1\).jpg);
 	background-repeat: no-repeat;
