@@ -1,28 +1,17 @@
 
 body{
-	/* width: 780px; */
 	margin: auto;
 	font-family: sans-serif, helvetica;
-	/* background: rgb(234, 227, 240); */
-	/* background-image: url(images/Amanhecer.jpg);
-	background-repeat: no-repeat;
-	background-size: cover; */
 	background-color: #0e1b27;
 	color: rgb(255, 255, 255);
 	box-sizing: border-box;
 	text-decoration: none;
 
 }
-header{
-	position: sticky;
-	top: 0;
-	bottom: 0;
-}
 p{
 	padding: 3px 5px 2px 5px;
 }
 #wrap{
-	/* background-color: #ffffff; */
 	position: relative;
 }
 h1{
@@ -36,7 +25,9 @@ header{
 	box-shadow: 10px  2px 34px #03080c;
 	border: 2px solid whitesmoke;
 	border-radius: 5px;
-	
+	position: sticky;
+	top: 0;
+	bottom: 0;
 }
 header .menu{
 	display: flex;
@@ -63,57 +54,53 @@ header .menu li{
 	display: inline;
 }
  section .secao{
-	 width: 890px;	
-	 font-size: 22px;
-	/* text-align: center; */
-	margin: auto;
-	text-shadow: 2px 2px 0.5px black;
+	 width: 80%;	
+	 font-size: 18px;
+	 margin: auto;
+	 text-shadow: 2px 2px 0.5px black;
 
 }
 article{
-	width: 890px;
-	font-size: 22px;
-	/* text-align: center; */
+	width: 80%;
+	font-size: 18px;
 	margin: auto;
 	text-shadow: 2px 2px 0.5px black;
 }
 .imggg{
-	width: 640px;
-	height: 360px;
-	/* width: 500px;
-	max-width: 500px;
-	min-width: 400px; */
-	/* margin-left: 80px;
-	margin-right: 140px; */
+	width: 50%;
+	height: auto;
 	margin-right: auto;
 	margin-left: auto;
 	border: 3px solid whitesmoke;
 	border-radius: 10px;
 	
 }
+#selected{
+	width: 100%;
+	height: 100%;
+}
 .imgg{
-	width: 890px;
+	width: 80%;
 	margin: auto;
 }
 
 h2{
-	/* text-align: center; */
-	padding: 25px;
-	width: 890px;
+	display: inline-block;
+	padding: 20px;
+	width: 80%;
+	text-align: center;
 	margin: auto;
 	text-shadow: 2px 2px 0.5px black;
 }
 .saque{
 	
-	/* display: flex;
-	float: left; */
 	margin: auto;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	margin-bottom: 15px;
 }
 .saquei{
-	font-size: 22px;
+	font-size: 18px;
 	display: inline;
 	margin: auto;
 	text-shadow: 2px 2px 0.5px black;

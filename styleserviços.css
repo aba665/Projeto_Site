@@ -1,28 +1,17 @@
 
 body{
-	/* width: 780px; */
 	margin: auto;
 	font-family: sans-serif, helvetica;
-	/* background: rgb(234, 227, 240); */
-	/* background-image: url(images/quino-al-LQAFsv2eKEA-unsplash\ \(1\).jpg);
-	background-repeat: no-repeat;
-	background-size: cover; */
 	background-color: #0e1b27;
-	color: white;
+	color: rgb(255, 255, 255);
 	box-sizing: border-box;
 	text-decoration: none;
 	
-}
-header{
-	position: sticky;
-	top: 0;
-	bottom: 0;
 }
 p{
 	padding: 3px 5px 2px 5px;
 }
 #wrap{
-	/* background-color: #ffffff; */
 	position: relative;
 }
 h1{
@@ -36,6 +25,9 @@ header{
 	box-shadow: 10px  2px 34px #03080c;
 	border-radius: 5px;
 	border: 2px solid whitesmoke;
+	position: sticky;
+	top: 0;
+	bottom: 0;
 	
 }
 header .menu{
@@ -63,37 +55,40 @@ header .menu li{
 	display: inline;
 }
  section .secao{
-	 width: 890px;	
+	 width: 80%;	
 	 font-size: 18px;
-	/* text-align: center; */
-	margin: auto;
-	text-shadow: 2px 2px 0.5px black;
+	 margin: auto;
+	 text-shadow: 2px 2px 0.5px black;
 
 }
 article{
-	width: 890px;
-	font-size: 22px;
-	/* text-align: center; */
+	width: 80%;
+	font-size: 18px;
 	margin: auto;
 	text-shadow: 2px 2px 0.5px black;
 }
 .imggg{
-	width: 640px;
-	height: 500px;
+	width: 50%;
+	height: 27vw;
 	margin-right: auto;
 	margin-left: auto;
 	border: 2px solid whitesmoke;
 	border-radius: 8px;
-	overflow: hidden;
+}
+#selected{
+	width: 100%;
+	height: 100%;
 }
 .imgg{
-	width: 890px;
+	width: 80%;
 	margin: auto;
 }
 
 h2{
+	font-size: 20px;
 	padding: 25px;
-	width: 890px;
+	width: 80%;
+	text-align: center;
 	margin: auto;
 	text-shadow: 2px 2px 0.5px black;
 }
@@ -105,17 +100,10 @@ h2{
 	margin-bottom: 15px;
 }
 .saquei{
-	font-size: 22px;
+	font-size: 18px;
 	display: inline;
 	margin: auto;
 	text-shadow: 2px 2px 0.5px black;
-}
-footer{
-	clear: both;
-	overflow: hidden;
-	background-color: #0f253a;
-	border: 2px solid whitesmoke;
-
 }
 footer{
 	font-size: 10px;
@@ -123,6 +111,10 @@ footer{
 	color: white;
 	text-align: center;
 	border-radius: 3px;
+	clear: both;
+	overflow: hidden;
+	background-color: #0f253a;
+	border: 2px solid whitesmoke;
 	
 }
 h3{
@@ -131,9 +123,9 @@ h3{
 }
 .pcabeçalho{
     display: block;
-    width: 890px;
+    width: 80%;
     margin: auto;
-    font-size: 18px;
+    font-size: 17px;
     padding-bottom: 10px;
 	text-shadow: 2px 2px 0.5px black;
 }
