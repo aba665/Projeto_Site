@@ -61,8 +61,8 @@ header .menu li{
 	display: inline;
 }
 section{
-    width: 74vw;
-	height: 20%;
+    width: 70vw;
+	height: 30vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -122,6 +122,27 @@ h2{
 	font-size: 22px;
 	display: inline;
 	margin: auto;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-size: 10px;
+	height: 30px;
+	color: white;
+	text-align: center;
+	border: 2px solid whitesmoke;
+	border-radius: 3px;
+	clear: both;
+	overflow: hidden;
+	background-color:#0f253a;
+
+	
+}
+h3{
+	position: fixed;
+	bottom: 0;
+	right: 46%;
 }
 @media screen and (max-width: 1000px) {
 	#centralizar{
